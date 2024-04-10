@@ -1,0 +1,43 @@
+Requerimientos Funcionales:
+
+Registro de Usuarios:
+Los usuarios pueden registrarse en la aplicación utilizando sus cuentas de Gmail
+Captura de Datos:
+La aplicación debe solicitar los siguientes datos al usuario:
+Marca del vehículo.
+Modelo del vehículo.
+Cilindrada del vehículo.
+Tipo de combustible del vehículo.
+Capacidad de pasajeros del vehículo.
+Cálculo Automático de Tarifa de Despacho:
+Según las reglas de negocio, la aplicación debe calcular automáticamente la tarifa de despacho basada en el total de compra y la distancia de entrega:
+Compras sobre 50,000 pesos: Despacho gratuito dentro de un radio de 20 km.
+Compras entre 25,000 y 49,999 pesos: Tarifa de $150 pesos por kilómetro recorrido.
+Compras menores a 25,000 pesos: Tarifa de $300 pesos por kilómetro recorrido.
+Generación de Resultados:
+La aplicación debe mostrar los siguientes resultados:
+Marca ingresada por el usuario.
+Modelo ingresado por el usuario.
+Cilindrada ingresada por el usuario.
+Tipo de combustible ingresado por el usuario.
+Capacidad de pasajeros ingresada por el usuario.
+
+Requerimientos No Funcionales:
+
+Usabilidad:
+La interfaz de usuario debe ser intuitiva y fácil de usar.
+La aplicación debe proporcionar mensajes claros y concisos para guiar al usuario durante la captura de datos.
+Eficiencia:
+El cálculo automático de la tarifa de despacho debe realizarse de manera rápida y eficiente.
+La aplicación debe manejar grandes volúmenes de datos sin retrasos significativos.
+Seguridad:
+Los datos de los usuarios (como cuentas de Gmail) deben manejarse de forma segura y protegida.
+La aplicación debe evitar vulnerabilidades de seguridad, como inyección de código malicioso.
+Escalabilidad:
+La aplicación debe ser escalable para manejar un crecimiento futuro en la base de usuarios y las transacciones.
+Compatibilidad:
+La aplicación debe ser compatible con diferentes sistemas operativos y versiones de Java.
+Debe funcionar correctamente en diferentes dispositivos y tamaños de pantalla.
+Mantenibilidad:
+El código debe estar bien estructurado y documentado para facilitar futuras actualizaciones y correcciones.
+Se deben seguir buenas prácticas de programación para garantizar la mantenibilidad a largo plazo.
